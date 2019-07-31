@@ -62,6 +62,6 @@ class AddTodo extends Component {
     //https://react-redux.js.org/using-react-redux/connect-mapdispatch
     export default connect(
         null,
-        // { addTodo }
-        mapDispatchToProps
+         { addTodo }
+        //mapDispatchToProps
       )(AddTodo);
